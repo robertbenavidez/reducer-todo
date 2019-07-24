@@ -4,7 +4,7 @@ const Todo = props => {
     console.log(props)
   return (
     <div
-      //onClick={() => props.toggleTodo(props.item.id)}
+      onClick={() => props.toggleTodo(props.item.id)}
     >
       <p>{props.todo.item}</p>
     </div>
